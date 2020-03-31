@@ -1,0 +1,86 @@
+#pro-wrapper h1 {
+    margin: 0;
+}
+#pro-wrapper a {
+    text-decoration: none;
+    cursor: pointer;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pro-wrapper {
+	max-width: 728px;
+	width: 100%;
+	height: 90px;
+	display: flex;
+	/* background: url("https://thefederal.com/embed/Corona/img/bg.png") no-repeat; */
+	overflow: hidden;
+	align-items: center;
+    /* justify-content: center; */
+    position: relative;
+}
+#pro-wrapper div {
+    height: 93px;
+    padding: 0 13px;
+}
+#pro-dashboard {
+    background: url("https://thefederal.com/embed/Corona/img/bg.png") no-repeat;
+    height: 90px;
+    /* position: relative; */
+}
+#pro-wrapper #pro-dashboard h1 {
+    background: #ff9900;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    /* width: 50%; */
+    /* position: relative;
+    top: 27px; */
+}
+
+#pro-wrapper h1 {
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 25px; */
+    /* line-height: 23px; */
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6px 0 0 0;
+}
+#pro-wrapper img {
+    width: 30px;
+    height: auto;
+}
+#pro-india, #pro-helpline, #pro-faqs {
+    background: #3E4956;
+}
+
+#pro-global, #pro-symptom, #pro-testing {
+    background: #161616;
+}
+@media screen and (max-width: 450px) {
+    #pro-dashboard {
+        background-position: -17px;
+    }
+    #pro-wrapper div {
+        padding: 0 3px;
+    }
+    #pro-wrapper #pro-dashboard h1{
+        font-size: 12px;
+        line-height: 11px;
+        padding: 4px;
+    }
+    #pro-wrapper h1{
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+

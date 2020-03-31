@@ -66,6 +66,11 @@
 #pro-global, #pro-symptom, #pro-testing {
     background: #161616;
 }
+@media screen and (min-width: 401px) and (max-width: 450px) { 
+#pro-wrapper div {
+        padding: 0 7px;
+    }
+}
 @media screen and (max-width: 450px) {
     #pro-dashboard {
         background-position: -17px;

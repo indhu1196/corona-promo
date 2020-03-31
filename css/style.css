@@ -89,3 +89,75 @@
     }
 }
 
+/*Sidebar ad*/
+#side-wrapper {
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background: url('/img/corono-bg.png') no-repeat;
+}
+#side-wrapper a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#side-header {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-header h1 {
+    background: #ff9900;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 4px 22px 4px 5px;
+    box-sizing: border-box;
+    /* width: 50%; */
+    /* position: relative;
+    top: 27px; */
+}
+#sidead-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+}
+#sidead-list li a {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+#sidead-list li  {
+    display: inline-flex;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+#side-india, #side-symptom, #side-testing {
+    background: #323C48
+}
+#sidead-list li h1 {
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 25px; */
+    /* line-height: 23px; */
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6px 0 0 0;
+    text-align: left;
+    margin: 0;
+}
+#side-wrapper img {
+    width: 33px;
+    height: auto;
+    position: relative;
+}

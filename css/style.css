@@ -95,7 +95,7 @@
     height: 600px;
     overflow: hidden;
     position: relative;
-    background: url('/img/corono-bg.png') no-repeat;
+    background: url('../img/corono-bg.png') no-repeat;
 }
 #side-wrapper a {
     text-decoration: none;
